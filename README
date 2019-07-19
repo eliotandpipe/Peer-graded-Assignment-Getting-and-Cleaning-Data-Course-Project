@@ -1,0 +1,32 @@
+README
+
+By Eliot Jones
+
+      Stage 1
+
+The first segment of code sets up the required packages, data and objects for later in the project. 
+It loads the packages "data.table" and "Reshape2", sets path as the current working directory and finally,
+downloads and expand the zip file containing the data.
+
+
+    Stage 2
+
+The second section creates the object "measurements" which will be used later in the project to extract 
+the mean and std from the two seperate datasets.
+
+    Stage 3 / 4
+    
+Next, relatively the same code is repeated for both data sources, reading each file into the R project 
+and combining them into two respective datasets; test and train.
+
+   Stage 5
+
+Test and train rows are combined into one dataset named "Merged"
+
+  Stage 6
+
+Data and variable are then rearanged to be more clear to the reader.
+
+  Stage 7
+  
+ New data table is then written into a final text file.
